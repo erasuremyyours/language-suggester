@@ -14,7 +14,6 @@ console.log('jquery is enabled');
 
     if (years === 0 && ending === 'front' && building === 'apps' && companies === 'big') {
       $('.languages #python').show();
-      $('.name').show();
       console.log('python selected');
     } else if (years === 0 && ending === 'front' && building === 'apps' && companies === 'gov') {
       $('.languages #python').show();

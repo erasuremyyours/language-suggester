@@ -6,7 +6,7 @@
 
 ## Description
 
-_This CV&Portolio was created for the **Epicodus Coding** Bootcamp and is meant to represent the work, education and interests of its creator in a simple HTML format, with an attached image, and an aesthetically pleasing CSS design which works off Bootstrap resources._
+_This Programming Language was created for the **Epicodus Coding** Bootcamp and is meant to help the User choose between three programming languages (C*, React, and Javascript) based on the information entered (years spent coding, desired company size, and type of work), and an aesthetically pleasing CSS design which works off Bootstrap resources._
 
 ## Setup/Installation Requirements
 
