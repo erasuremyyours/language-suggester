@@ -12,7 +12,14 @@ console.log('jquery is enabled');
 
     console.log(name, years, ending, building, companies);
 
-    
+    if (years === 0 && ending === 'front' && building === 'apps' && companies === 'big') {
+      $('.languages #python').show();
+      console.log('python selected');
+    } 
+    } else {
+      $('.languages #english').show();
+      console.log('english selected');
+    }
 
 });
 
