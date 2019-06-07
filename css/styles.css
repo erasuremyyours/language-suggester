@@ -1,4 +1,10 @@
+body {
+  background-color: blue
+}
 
+label {
+  font-size: 25px
+}
 
 .languages div {
   display: none;
