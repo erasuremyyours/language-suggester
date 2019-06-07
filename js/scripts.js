@@ -15,7 +15,42 @@ console.log('jquery is enabled');
     if (years === 0 && ending === 'front' && building === 'apps' && companies === 'big') {
       $('.languages #python').show();
       console.log('python selected');
-    } 
+    } else if (years === 0 && ending === 'front' && building === 'apps' && companies === 'gov') {
+      $('.languages #python').show();
+      console.log('javascript selected');
+    } else if (years === 0 && ending === 'front' && building === 'apps' && companies === 'startup') {
+      $('.languages #react').show();
+      console.log('react selected');
+    } else if (years === 0 && ending === 'front' && building === 'apps' && companies === 'gov') {
+      $('.languages #javascript').show();
+      console.log('javascript selected');
+    } else if (years === 1 && ending === 'front' && building === 'data-mines' && companies === 'startup') {
+      $('.languages #react').show();
+      console.log('react selected');
+    } else if (years === 1 && ending === 'back' && building === 'data-mines' && companies === 'startup') {
+      $('.languages#react').show();
+      console.log('react selected');
+    } else if (years === 1 && ending === 'back' && building === 'apps' && companies === 'startup') {
+      $('.languages #react').show();
+      console.log('react selected');
+    } else if (years > 1 && ending === 'back' && building === 'data-mines' && companies === 'gov') {
+      $('.languages #react').show();
+      console.log('react selected');
+    } else if (years > 1 && ending === 'back' && building === 'cybersecurity' && companies === 'big') {
+      $('.languages #python').show();
+      console.log('python selected');
+    } else if (years > 1 && ending === 'back' && building === 'cybersecurity' && companies === 'big') {
+      $('.languages #python').show();
+      console.log('python selected');
+    } else if (years > 1 && ending === 'back' && building === 'cybersecurity' && companies === 'big') {
+      $('.languages #python').show();
+      console.log('python selected');
+    } else if (years > 1 && ending === 'back' && building === 'cybersecurity' && companies === 'big') {
+      $('.languages #python').show();
+      console.log('python selected');
+    } else if (years > 1 && ending === 'back' && building === 'cybersecurity' && companies === 'big') {
+      $('.languages #python').show();
+      console.log('python selected');
     } else {
       $('.languages #english').show();
       console.log('english selected');
